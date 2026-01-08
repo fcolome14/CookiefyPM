@@ -10,6 +10,7 @@ Local management system for Cookiefy sites data packages. Keep your package data
 - [Workflow Overview](#workflow-overview)
 - [Detailed Usage](#detailed-usage)
 - [Package Structure](#package-structure)
+- [Scraper](#scraper)
 - [Troubleshooting](#troubleshooting)
 - [FAQ](#faq)
 
@@ -569,6 +570,19 @@ gh run watch
 | `social_media` | ⚪ No | Social media links |
 
 *Required if you have media for this site
+
+---
+
+## 🐶 Scraper
+
+The scraping automatic process is led by `chroium` and `playwright` libraries. 
+
+Install the dependencies:
+
+```bash
+poetry add playwright pyyaml
+poetry run playwright install chromium
+```
 
 ---
 

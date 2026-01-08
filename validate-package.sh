@@ -7,7 +7,7 @@ if [ -z "$1" ]; then
 fi
 
 PACKAGE_NAME=$1
-LOCAL_PACKAGES_DIR="$HOME/Documents/PROJECTS/cookiefy-packages/packages"
+LOCAL_PACKAGES_DIR="$HOME/Documents/PROJECTS/CookiefyPM/packages"
 PACKAGE_PATH="$LOCAL_PACKAGES_DIR/$PACKAGE_NAME"
 
 echo "🔍 Validating package: $PACKAGE_NAME"

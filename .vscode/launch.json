@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Scrape Towns",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scraper.py",
+            "args": ["towns"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Scrape Barcelona Neighborhoods",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scraper.py",
+            "args": ["barcelona_neighborhoods"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Scrape All",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scraper.py",
+            "args": ["all"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

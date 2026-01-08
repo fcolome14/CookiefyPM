@@ -1,0 +1,7 @@
+{
+    "python.defaultInterpreterPath": "C:\\Users\\ferra\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\cookiefypm-XqObd5UW-py3.13\\Scripts\\python.exe",
+    "python.terminal.activateEnvironment": true,
+    "files.associations": {
+        "*.yaml": "yaml"
+    }
+}

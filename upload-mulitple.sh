@@ -2,7 +2,7 @@
 
 set -e
 
-LOCAL_PACKAGES_DIR="$HOME/Documents/PROJECTS/cookiefy-packages/packages"
+LOCAL_PACKAGES_DIR="$HOME/Documents/PROJECTS/CookiefyPM/packages"
 BUCKET="gs://cookiefy-media/temp-packages"
 
 if [ $# -eq 0 ]; then
